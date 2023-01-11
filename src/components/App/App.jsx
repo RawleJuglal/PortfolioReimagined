@@ -1,10 +1,17 @@
 import React from 'react'
 import './App.css'
+import Header from '../Header/Header'
+import Footer from '../Footer/Footer'
+
 
 function App(){
     return(
         <div>
-            <h1>Is Working</h1>
+            <Header />
+            <main>
+                <p>Main Content</p>
+            </main>
+            <Footer />
         </div>
     )
 }
